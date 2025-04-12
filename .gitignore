@@ -1,0 +1,24 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar configuraciones locales y temporales
+.vscode/
+.angular/
+
+# Ignorar archivos de log y temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar compilaciones
+dist/
+build/
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración del entorno
+.env
+.env.local
+.env.*.local
