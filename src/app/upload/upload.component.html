@@ -1,0 +1,5 @@
+<h2>Subir Imagen Binaria</h2>
+<input type="file" (change)="onFileSelected($event)" />
+<mat-slider [(ngModel)]="points" min="100" max="10000" step="100"></mat-slider>
+<p>Puntos aleatorios seleccionados: {{ points }}</p>
+<button mat-raised-button color="primary" (click)="calculateArea()">Calcular Área</button>
